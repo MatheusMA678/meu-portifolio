@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+  .social {
+    display: none;
+  }
+
+  .social-2 {
+    display: flex;
+  }
+
+  #section-1 h2 {
+    text-align: center;
+  }
+
+  .education ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .post img {
+    display: none;
+  }
+
+  .projects .card-2 {
+    display: none;
+  }
+
+  .info {
+    text-align: center;
+  }
+}
