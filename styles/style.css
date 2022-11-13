@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+  --font-default: 'Merriweather Sans', sans-serif;;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  font-family: var(--font-default);
+  color: var(--text-color);
+}
+
+main {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: .2s;
+}
+
+a:hover {
+  color: var(--bg-techs);
+}
+
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 30%;
+}
+
+.card {
+  background-color: var(--bg-cards);
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.user-info img {
+  width: 128px;
+  height: 128px;
+  border: 2px solid #00FF00;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.user-info .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-info .info span {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.user-info .info p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 40px;
+}
+
+.social span {
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.tech h2, .exp h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills span {
+  font-weight: 700;
+  font-size: 10px;
+  color: #000;
+  border-radius: 20px;
+  background-color: var(--bg-techs);
+  padding: 5px;
+  width: 86px;
+  text-align: center;
+}
+
+.exp, .education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.exp ul, .education ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.exp ul li span, .education ul li span {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.exp ul li p, .education ul li p {
+  font-weight: 300;
+  font-size: 12px;
+}
