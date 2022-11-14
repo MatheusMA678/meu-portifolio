@@ -28,3 +28,23 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-wrap: wrap;
+    margin: 50px auto;
+  }
+
+  #section-1{
+    width: 100%;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .education ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
